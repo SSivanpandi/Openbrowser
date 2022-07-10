@@ -20,6 +20,7 @@ public class Openbrowser
         driver.findElement(By.id("L2AGLb")) .click();
         driver.findElement(By.name("q")).sendKeys("Whatsapp");
         driver.findElement(By.name("q")).submit();
+        System.Out.Println("Browser Lunched Successfully");
         driver.quit();
         extent.flush();
     }
