@@ -21,6 +21,7 @@ public class Openbrowser
         driver.findElement(By.name("q")).sendKeys("Whatsapp");
         driver.findElement(By.name("q")).submit();
         System.out.Println("Added Audio Features in this software");
+        System.out.Println("Added Video Features in this software");
         driver.quit();
         extent.flush();
     }
